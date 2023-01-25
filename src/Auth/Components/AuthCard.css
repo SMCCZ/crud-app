@@ -1,0 +1,21 @@
+.Auth-Card {
+    padding: 16px;
+    margin: 16px;
+    width: 480px;
+    height: 280px;
+    background-color: black;
+    text-align: start;
+    font-size: 16;
+}
+
+.App-Button {
+    padding: 16px;
+    background-color: antiquewhite;
+    border: #61dafb;
+    align-self: center;
+    box-shadow: #61dafb;
+}
+
+p {
+    font-size: 16px;
+}
