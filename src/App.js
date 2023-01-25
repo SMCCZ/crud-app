@@ -1,23 +1,11 @@
 import "./App.css";
-import AuthCard from "./Auth/Components/AuthCard";
+import Home from "./Home/Pages/Home.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
-        <AuthCard />
+       <Home/>
       </header>
     </div>
   );
