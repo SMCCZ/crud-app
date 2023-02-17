@@ -1,5 +1,12 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
 .App {
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo {
@@ -34,4 +41,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Post-Container{
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+  background-color: #c9caca;
+  text-align: start;
 }
